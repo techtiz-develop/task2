@@ -38,6 +38,9 @@ next-env.d.ts
 public/videos/guidelines/*.mp4
 public/videos/guidelines/*.mov
 
+# Large binary files
+public/images/avatars/*.zip
+
 # IDE
 .vscode/
 .idea/
