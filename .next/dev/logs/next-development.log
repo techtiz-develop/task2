@@ -1,0 +1,34 @@
+[00:00:02.954] Server  LOG      ✓ Ready in 2.5s
+[00:00:15.366] Server  LOG      ○ Compiling / ...
+[00:00:22.853] Browser LOG     🔐 AuthInitializer: Found access token, validating...
+[00:00:22.853] Browser LOG     🔐 AuthInitializer: Client-side token validation passed
+[00:00:22.853] Browser LOG     🔄 Deployment reload: Hook initialized {"hostname":"localhost","nodeEnv":"development","timestamp":"2025-12-12T05:53:36.141Z"}
+[00:00:22.853] Browser LOG     🔄 Deployment reload: Skipping in development {"hostname":"localhost","nodeEnv":"development","reason":"Not in production environment"}
+[00:00:22.853] Browser LOG     ⏭️ Initial mount - will sync pending videos with DB on connection
+[00:00:23.158] Browser WARN    You may test your Stripe.js integration over HTTP. However, live Stripe.js integrations must use HTTPS.
+[00:00:24.275] Browser LOG     🔄 Initial sync with DB on mount
+[00:00:24.276] Browser LOG     🔍 Syncing pending videos with DB for user: 68db861e98dd3050d4426390
+[00:00:24.276] Browser LOG     🧹 Cleared pending videos from localStorage
+[00:00:24.276] Browser LOG     🔌 Unified WebSocket connecting to: https://backend.edgeairealty.com
+[00:00:26.311] Browser LOG     🔌 Unified WebSocket connected
+[00:00:26.311] Browser LOG     🏠 Joined room for user: 68db861e98dd3050d4426390
+[00:00:26.311] Browser LOG     🔍 Syncing pending videos with DB for user: 68db861e98dd3050d4426390
+[00:00:26.311] Browser LOG     ✅ Pending workflows checked successfully
+[00:00:26.311] Browser LOG     📊 Pending workflows data: {"hasPendingWorkflows":false,"message":null,"pendingCount":0}
+[00:00:26.311] Browser ERROR   Failed to sync pending videos: {}
+[00:00:26.311] Browser LOG     ✅ Pending workflows checked successfully
+[00:00:26.311] Browser LOG     📊 Pending workflows data: {"hasPendingWorkflows":false,"message":null,"pendingCount":0}
+[00:00:26.311] Browser ERROR   Failed to sync pending videos: {}
+[00:00:26.311] Browser LOG     🔌 Fallback: Checking pending workflows after delay
+[00:00:26.343] Browser LOG     ✅ Pending workflows checked successfully
+[00:00:26.343] Browser LOG     📊 Pending workflows data: {"hasPendingWorkflows":false,"message":null,"pendingCount":0}
+[00:00:37.825] Server  LOG      ○ Compiling /create-video ...
+[00:00:38.702] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:00:38.702] Browser LOG     🔄 Recalculating displayVideos: {"apiVideosCount":0,"pendingVideosCount":0}
+[00:00:38.702] Browser LOG     [2;38;2;124;124;124m%s[0m 🔄 Recalculating displayVideos: {"apiVideosCount":0,"pendingVideosCount":0}
+[00:00:39.986] Browser LOG     🔄 Recalculating displayVideos: {"apiVideosCount":10,"pendingVideosCount":0}
+[00:00:39.986] Browser LOG     [2;38;2;124;124;124m%s[0m 🔄 Recalculating displayVideos: {"apiVideosCount":10,"pendingVideosCount":0}
+[00:00:51.344] Browser LOG     🔄 Recalculating displayVideos: {"apiVideosCount":10,"pendingVideosCount":0}
+[00:00:51.344] Browser LOG     [2;38;2;124;124;124m%s[0m 🔄 Recalculating displayVideos: {"apiVideosCount":10,"pendingVideosCount":0}
+[00:01:06.852] Browser LOG     🔄 Recalculating displayVideos: {"apiVideosCount":10,"pendingVideosCount":0}
+[00:01:06.852] Browser LOG     [2;38;2;124;124;124m%s[0m 🔄 Recalculating displayVideos: {"apiVideosCount":10,"pendingVideosCount":0}
